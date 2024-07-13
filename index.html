@@ -1,0 +1,527 @@
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Заголовок страницы</title>
+    <link rel="stylesheet" href="./css/style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Commissioner:wght@100..900&display=swap" rel="stylesheet">
+  
+</head>
+  <body>
+    <div class="wrapper">
+    <header>
+        <div id="headdy">
+        </div>  
+        <div id="header_content">
+             <!-- Меню 360px  -->
+             <div class="burger">
+                <span></span>
+            </div>
+             
+             <!-- Логотип  -->
+            <object type="image/svg+xml" data="images/logo_chistograd.svg" width="157" height="30"></object>
+            <!-- Звонок 360px  -->
+            <div class="header_button_360">
+                
+                <div id="menu_mob_click">
+                    <object type="image/svg+xml" data="images/icons/call.svg" width="30" height="30"></object>
+                </div>
+            </div>
+            <!--  Секция меню -->
+            <div class="links">
+                <a class="header_link" href="index.html">О НАС</a>
+                
+                
+                <div id="dropdown">
+                    
+                    <a class="header_link" href="catalog.html">УСЛУГИ</a>
+                    <div class="dropdown-content">
+                        
+                      <div class="row">
+                        <div class="row_content">
+                            <div class="column">
+                                
+                            <a class="header_link"href="#">Детейлинг дисков</a>
+                            <a class="header_link"href="#">2-3 фазная мойка</a>
+                            <a class="header_link"href="#">Мойка двигателя</a>
+                            <a class="header_link"href="#">Мойка и уборка салона</a>
+                            <a class="header_link"href="#">Полировка автомобиля</a>
+                            <a class="header_link"href="#">Мойка стекол и зеркал </a>
+                            <a class="header_link"href="#">Чистка ковриков</a>
+                            </div>
+                            <div class="column">
+                            <a class="header_link" href="#">Нанесение защитных покрытий</a>
+                            <a class="header_link" href="#">Уборка багажника</a>
+                            <a class="header_link" href="#">Консервация составами</a>
+                            <a class="header_link" href="#">Чернение покрышек</a>
+                            <a class="header_link" href="#">Детейлинг кузова</a>
+                            <a class="header_link" href="#">Химчистка салона</a>
+                            </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                <a class="header_link" href="catalog.html">ЦЕНЫ</a>
+                <a class="header_link" href="catalog.html">БЛОГ</a>
+                <a class="header_link" href="catalog.html">КОНТАКТЫ</a>
+            </div>
+            <!--  Секция контакты --> 
+            <div class="contacts_header"> 
+                <a class="header_number" href="tel:+4733378901">8 (347) 266‒36‒63</a>
+                <div class="time">
+                    <object type="image/svg+xml" data="images/24H.svg" width="30" height="30" > </object>
+                    <p class="time_text">РАБОТАЕМ КРУГЛОСУТОЧНО</p>
+                </div>
+            </div>
+            <!--  Кнопка вацап -->
+            <div class="button_class">
+                <button class="header_button"> 
+                    <object type="image/svg+xml" data="images/WhatsApp.svg" width="30" height="30" ></object>
+                    <p class="button_text">TEXT</p>
+                </button>
+            </div>
+        </div>
+        
+    </header>
+    <!--<div class="menu_clicked">
+
+    </div>-->
+    <div class="header_menu_360" style="display:none;">
+        <!--  Первая колонка -->
+            
+            <!--  Второй раздел -->
+            <div class="razdel_footer" >
+                <!--  Карта сайта -->
+                <div id="karta_content" style="margin-top: 80px;">
+                    <a class="time_text"style="margin-bottom:10px;">КАРТА САЙТА</a>
+                    <div class ="mob_block select_mob_highlight">
+                        <a class="breadcrumb_text select_mob_highlight_text">Главная</a>
+                    </div>
+                     <div class ="mob_block select_mob_highlight">
+                        <a class="breadcrumb_text select_mob_highlight_text"  >О нас</a>
+                    </div>
+                    <div class ="mob_block select_mob_highlight" id="uslugi_click">
+                        <div style="display:flex;width:90%;justify-content: space-between;"><a class="breadcrumb_text" style="font-size: 14px; width:278px;height:18px;text-align: left;">Услуги</a>
+                            <object type="image/svg+xml" data="images/Стрелка.svg" width="10" height="14" ></object></div>
+                        </div> 
+                    <div class ="mob_block select_mob_highlight">
+                        <a class="breadcrumb_text select_mob_highlight_text"  >Цены</a>
+                    </div> 
+                    <div class ="mob_block select_mob_highlight">
+                        <a class="breadcrumb_text select_mob_highlight_text"  >Статьи</a>
+                    </div> 
+                    <div class ="mob_block select_mob_highlight">
+                        <a class="breadcrumb_text select_mob_highlight_text"  >Контакты</a>
+                    </div> 
+                </div>
+                
+                <div id="uslugi_content" style="margin-top: 80px;">
+                    <div style="display: flex;flex-direction: row;align-items: center;padding: 0px;gap: 10px;align-items: baseline;">
+                        <object type="image/svg+xml" style="transform: rotate(180deg);fill:#ffffff" data="images/Стрелка.svg" width="10" height="10" ></object>
+                        <a class="time_text"id="uslugi_text_back"style="margin-bottom:10px;margin-left:0;">УСЛУГИ</a>
+                    </div>
+                    
+                    <div class ="mob_block select_mob_highlight">
+                        <a class="breadcrumb_text select_mob_highlight_text"  >Детейлинг дисков</a>
+                    </div>
+                    <div class ="mob_block select_mob_highlight">
+                        <a class="breadcrumb_text select_mob_highlight_text"  >2-3 фазная мойка</a>
+                    </div>
+                    <div class ="mob_block select_mob_highlight">
+                        <a class="breadcrumb_text select_mob_highlight_text"  >Мойка двигателя</a>
+                    </div>
+                    <div class ="mob_block select_mob_highlight">
+                        <a class="breadcrumb_text select_mob_highlight_text"  >Полировка автомобиля</a>
+                    </div>
+                    <div class ="mob_block select_mob_highlight">
+                        <a class="breadcrumb_text select_mob_highlight_text"  >Мойка стекол и зеркал</a>
+                    </div>
+                    <div class ="mob_block select_mob_highlight">
+                        <a class="breadcrumb_text select_mob_highlight_text"  >Чистка ковриков</a>
+                    </div>
+                    <div class ="mob_block select_mob_highlight">
+                        <a class="breadcrumb_text select_mob_highlight_text"  >Нанесение защитных покрытий</a>
+                    </div>
+                    <div class ="mob_block select_mob_highlight">
+                        <a class="breadcrumb_text select_mob_highlight_text"  >Уборка багажника</a>
+                    </div>
+                    <div class ="mob_block select_mob_highlight">
+                        <a class="breadcrumb_text select_mob_highlight_text"  >Консервация составами</a>
+                    </div>
+                    <div class ="mob_block select_mob_highlight">
+                        <a class="breadcrumb_text select_mob_highlight_text"  >Детейлинг кузова</a>
+                    </div>
+                    <div class ="mob_block select_mob_highlight">
+                        <a class="breadcrumb_text select_mob_highlight_text"  >Химчистка салона</a>
+                    </div>
+                </div>
+                <button class="header_button"> 
+                    <object type="image/svg+xml" data="images/WhatsApp.svg" width="30" height="30" ></object>
+                    <a class="button_text">НАПИСАТЬ В WHATSAPP</a>
+                </button>
+            </div>
+        
+        <!--Третий раздел-->
+        <div class="razdel_footer" >
+            <!--  список контакты -->
+            <div style="display:flex;flex-direction: column;gap: 4px;align-items: flex-start;">
+                <a class="time_text"style="margin-bottom:10px;">КОНТАКТЫ</a>
+                <!--  Номер -->
+                <div class ="mob_block select_mob_highlight"style="display: flex; align-items: center;">
+                    <object type="image/svg+xml" data="images/Call_icon.svg" width="30" height="30" ></object>
+                    <a class="breadcrumb_text" style="font-size: 14px; width:253px;height:18px;text-align: left;"href="tel:+4733378901">8 (347) 266‒36‒63</a>
+                </div>
+                 <!--  Адрес -->
+                 <div class ="mob_block"style="display: flex; align-items: center;">
+                    <object type="image/svg+xml" data="images/Location_icon.svg" width="30" height="30" ></object>
+                    <a class="breadcrumb_text" style="font-size: 14px; width:253px;height:18px;text-align: left;">г. Уфа, ул. Бакалинская, 13/1</a>
+                </div>
+                <!--  Почта -->
+                <div class ="mob_block select_mob_highlight" style="display: flex; align-items: center;">
+                    <object type="image/svg+xml" data="images/Mail_icon.svg" width="30" height="30" ></object>
+                    <a class="breadcrumb_text"  style="font-size: 14px; width:253px;height:18px;text-align: left;" href="mailto:chistograd@yandex.ru" >chistograd@yandex.ru</a>
+                </div> 
+                <!--  Время -->
+                <div class ="mob_block"style="display: flex; align-items: center;">
+                    <object type="image/svg+xml" data="images/Time_icon.svg" width="30" height="30" ></object>
+                <a class="breadcrumb_text" style="font-size: 14px; width:253px;height:18px;text-align: left;">Круглосуточно, без выходных</a>
+                </div>
+            </div>
+            
+        </div>
+       
+    </div>
+    <main>
+            <div class="uslugi_osnova">
+                <div class="uslugi_osnova_content">
+                    <ul class="breadcrumb">
+                        <li><a href="#" class="breadcrumb_text" style="opacity: 60% !important;">Главная</a></li>
+                        <li ><a class="breadcrumb_text" style="opacity: 60% !important;">Услуги</a></li>
+                    </ul>
+                    <a class="text_neuropol" style="color:white;">Услуги</a>
+                </div>
+                
+            </div>
+            <div id="uslugi_content_cards">
+                <!-- сюда вставляются карточки после выполнения скрипта-->
+            </div>
+            <a class="breadcrumb_text" style="color:black!important;margin-top:30px;">Показать больше<object type="image/svg+xml" data="images/Стрелка.svg" width="10" height="14" style="transform: rotate(90deg);margin-left: 5px;"></object></a>
+    </main>
+    <footer>
+        <div class="footer_osnova_360">
+            <!--  Первая колонка -->
+                <div class="razdel_footer" style="margin-top: 60px;">
+                    <!--  Логотип -->
+                    <object type="image/svg+xml" width="216" height="41" class="logo_chistograd_footer" ></object>
+                    <!--  Кнопка вызова -->
+                    <button class="header_button"> 
+                        <object type="image/svg+xml" data="images/WhatsApp.svg" width="30" height="30" ></object>
+                        <a class="button_text">НАПИСАТЬ В WHATSAPP</a>
+                    </button>
+                </div>
+                <!--  Второй раздел -->
+                <div class="razdel_footer" >
+                    <!--  Карта сайта -->
+                    <div id="karta_content_footer">
+                        <a class="time_text"style="margin-bottom:10px;">КАРТА САЙТА</a>
+                        <div class ="mob_block select_mob_highlight">
+                            <a class="breadcrumb_text select_mob_highlight_text">Главная</a>
+                        </div>
+                         <div class ="mob_block select_mob_highlight">
+                            <a class="breadcrumb_text select_mob_highlight_text"  >О нас</a>
+                        </div>
+                        <div class ="mob_block select_mob_highlight" id="uslugi_click_footer">
+                            <div style="display:flex;width:90%;justify-content: space-between;"><a class="breadcrumb_text" style="font-size: 14px; width:278px;height:18px;text-align: left;">Услуги</a>
+                            <object type="image/svg+xml" data="images/Стрелка.svg" width="10" height="14" ></object></div>
+                        </div> 
+                        <div class ="mob_block select_mob_highlight">
+                            <a class="breadcrumb_text select_mob_highlight_text"  >Цены</a>
+                        </div> 
+                        <div class ="mob_block select_mob_highlight">
+                            <a class="breadcrumb_text select_mob_highlight_text"  >Статьи</a>
+                        </div> 
+                        <div class ="mob_block select_mob_highlight">
+                            <a class="breadcrumb_text select_mob_highlight_text"  >Контакты</a>
+                        </div> 
+                    </div>
+                    <div id="uslugi_content_footer">
+                        <div style="display: flex;flex-direction: row;align-items: center;padding: 0px;gap: 10px;align-items: baseline;">
+                            <object type="image/svg+xml" style="transform: rotate(180deg);fill:#ffffff" data="images/Стрелка.svg" width="10" height="10" ></object>
+                            <a class="time_text"id="uslugi_text_back_footer"style="margin-bottom:10px;margin-left:0;">УСЛУГИ</a>
+                        </div>
+                        
+                        <div class ="mob_block select_mob_highlight">
+                            <a class="breadcrumb_text select_mob_highlight_text"  >Детейлинг дисков</a>
+                        </div>
+                        <div class ="mob_block select_mob_highlight">
+                            <a class="breadcrumb_text select_mob_highlight_text"  >2-3 фазная мойка</a>
+                        </div>
+                        <div class ="mob_block select_mob_highlight">
+                            <a class="breadcrumb_text select_mob_highlight_text"  >Мойка двигателя</a>
+                        </div>
+                        <div class ="mob_block select_mob_highlight">
+                            <a class="breadcrumb_text select_mob_highlight_text"  >Полировка автомобиля</a>
+                        </div>
+                        <div class ="mob_block select_mob_highlight">
+                            <a class="breadcrumb_text select_mob_highlight_text"  >Мойка стекол и зеркал</a>
+                        </div>
+                        <div class ="mob_block select_mob_highlight">
+                            <a class="breadcrumb_text select_mob_highlight_text"  >Чистка ковриков</a>
+                        </div>
+                        <div class ="mob_block select_mob_highlight">
+                            <a class="breadcrumb_text select_mob_highlight_text"  >Нанесение защитных покрытий</a>
+                        </div>
+                        <div class ="mob_block select_mob_highlight">
+                            <a class="breadcrumb_text select_mob_highlight_text"  >Уборка багажника</a>
+                        </div>
+                        <div class ="mob_block select_mob_highlight">
+                            <a class="breadcrumb_text select_mob_highlight_text"  >Консервация составами</a>
+                        </div>
+                        <div class ="mob_block select_mob_highlight">
+                            <a class="breadcrumb_text select_mob_highlight_text"  >Детейлинг кузова</a>
+                        </div>
+                        <div class ="mob_block select_mob_highlight">
+                            <a class="breadcrumb_text select_mob_highlight_text"  >Химчистка салона</a>
+                        </div>
+                    </div>
+                    
+                </div>
+            
+            <!--Третий раздел-->
+            <div class="razdel_footer" >
+                <!--  список контакты -->
+                <div style="display:flex;flex-direction: column;gap: 4px;align-items: flex-start;">
+                    <a class="time_text"style="margin-bottom:10px;">КОНТАКТЫ</a>
+                    <!--  Номер -->
+                    <div class ="mob_block select_mob_highlight"style="display: flex; align-items: center;">
+                        <object type="image/svg+xml" data="images/Call_icon.svg" width="30" height="30" ></object>
+                        <a class="breadcrumb_text" style="font-size: 14px; width:253px;height:18px;text-align: left;"href="tel:+4733378901">8 (347) 266‒36‒63</a>
+                    </div>
+                     <!--  Адрес -->
+                     <div class ="mob_block"style="display: flex; align-items: center;">
+                        <object type="image/svg+xml" data="images/Location_icon.svg" width="30" height="30" ></object>
+                        <a class="breadcrumb_text" style="font-size: 14px; width:253px;height:18px;text-align: left;">г. Уфа, ул. Бакалинская, 13/1</a>
+                    </div>
+                    <!--  Почта -->
+                    <div class ="mob_block select_mob_highlight" style="display: flex; align-items: center;">
+                        <object type="image/svg+xml" data="images/Mail_icon.svg" width="30" height="30" ></object>
+                        <a class="breadcrumb_text"  style="font-size: 14px; width:253px;height:18px;text-align: left;" href="mailto:chistograd@yandex.ru" >chistograd@yandex.ru</a>
+                    </div> 
+                    <!--  Время -->
+                    <div class ="mob_block"style="display: flex; align-items: center;">
+                        <object type="image/svg+xml" data="images/Time_icon.svg" width="30" height="30" ></object>
+                    <a class="breadcrumb_text" style="font-size: 14px; width:253px;height:18px;text-align: left;">Круглосуточно, без выходных</a>
+                    </div>
+                </div>
+                
+            </div>
+           
+        </div>
+        <div class="footer_osnova_niz_360">
+        <hr style="width:100%;bottom:60px;opacity:0.4;color:#FFFFFF66;margin:0;">
+            <div class="footer_niz">
+                
+                <object type="image/svg+xml" data="images/LIDER_logo.svg" width="160" class="lider_logo" style="margin-top:20px;"></object>
+                <a class="footer_downtext">©2024 «ЧИСТОГРАД» ВСЕ ПРАВА ЗАЩИЩЕНЫ</a>
+                <a class="footer_downtext" id="polit">ПОЛИТИКА КОНФИДЕНЦИАЛЬНОСТИ</a>
+            </div>
+        </div>
+        <div class="footer_osnova">
+            <!--  Первая колонка -->
+            <div class="razdel_footer">
+                <!--  Логотип -->
+                <object type="image/svg+xml" width="216" height="41" class="logo_chistograd_footer" ></object>
+                <!--  Список -->
+                <div style="display:flex;flex-direction: column;gap: 10px;">
+                    <!--  Номер -->
+                    <div style="display: flex; align-items: center;">
+                        <object type="image/svg+xml" data="images/Call_icon.svg" width="30" height="30" ></object>
+                        <a class="footer_number" href="tel:+4733378901">8 (347) 266‒36‒63</a>
+                    </div>
+                     <!--  Адрес -->
+                     <div style="display: flex; align-items: center;">
+                        <object type="image/svg+xml" data="images/Location_icon.svg" width="30" height="30" ></object>
+                        <a class="footer_number" style="color:#9D9D9D">г. Уфа, ул. Бакалинская, 13/1</a>
+                    </div>
+                    <!--  Почта -->
+                    <div style="display: flex; align-items: center;">
+                        <object type="image/svg+xml" data="images/Mail_icon.svg" width="30" height="30" ></object>
+                        <a class="footer_mail" href="mailto:chistograd@yandex.ru" >chistograd@yandex.ru</a>
+                    </div> 
+                    <!--  Время -->
+                    <div style="display: flex; align-items: center;">
+                        <object type="image/svg+xml" data="images/Time_icon.svg" width="30" height="30" ></object>
+                    <a class="footer_number" style="color:#9D9D9D">Круглосуточно, без выходных</a>
+                    </div>
+                </div>
+                <!--  Кнопка вызова -->
+                <button class="header_button"style="width:255px !important;"> 
+                    <object type="image/svg+xml" data="images/WhatsApp.svg" width="30" height="30" ></object>
+                    <a class="button_text">НАПИСАТЬ В WHATSAPP</a>
+                </button>
+            </div>
+            <!--  Вторая колонка -->
+            <div class="razdel_footer">
+                <a class="footer_number">О нас</a>
+                <a class="footer_number">Услуги</a>
+                <a class="footer_number">Цены</a>
+                <a class="footer_number">Блог</a>
+                <a class="footer_number">Контакты</a>
+            </div>
+            <!--  Третья колонка -->
+            <div class="razdel_footer">
+                <a class="footer_number">Детейлинг дисков</a>
+                <a class="footer_number">2-3 фазная мойка</a>
+                <a class="footer_number">Мойка двигателя</a>
+                <a class="footer_number">Мойка и уборка салона</a>
+                <a class="footer_number">Полировка автомобиля</a>
+                <a class="footer_number">Мойка стекол и зеркал</a>
+                <a class="footer_number">Чистка ковриков</a>
+            </div>
+            <!--  Четвертая колонка -->
+            <div class="razdel_footer">
+                <a class="footer_number">Нанесение защитных покрытий</a>
+                <a class="footer_number">Уборка багажника</a>
+                <a class="footer_number">Консервация составами</a>
+                <a class="footer_number">Чернение покрышек</a>
+                <a class="footer_number">Детейлинг кузова</a>
+                <a class="footer_number">Химчистка салона</a>
+            </div>
+        </div>
+        <div class="footer_osnova_niz">
+        
+        <hr style="width:100%;bottom:60px;opacity:0.4;color:#FFFFFF66">
+            
+            <div class="footer_niz">
+                <object type="image/svg+xml" data="images/LIDER_logo.svg" width="160" class="lider_logo" ></object>
+                <a class="footer_downtext">©2024 «ЧИСТОГРАД» ВСЕ ПРАВА ЗАЩИЩЕНЫ</a>
+                <a class="footer_downtext" id="polit">ПОЛИТИКА КОНФИДЕНЦИАЛЬНОСТИ</a>
+            </div>
+        
+    </div>
+    </footer>
+   </div>
+   <script>
+    const uslugi =
+  [
+  {
+    "id": 1,
+    "name":"Детейлинг дисков"
+},
+{
+    "id": 2,
+    "name":"Детейлинг кузова"
+},
+{
+    "id": 3,
+    "name":"Нанесение защитных покрытий"
+},
+{
+    "id": 4,
+    "name":"Комплексная мойка"
+},
+{
+    "id": 5,
+    "name":"2-3 фазная мойка"
+},
+{
+    "id": 6,
+    "name":"Полировка автомобиля"
+},
+{
+    "id": 7,
+    "name":"Мойка двигателя"
+},
+{
+    "id": 8,
+    "name":"Мойка и уборка салона"
+},
+{
+    "id": 9,
+    "name":"Мойка стекол и зеркал"
+},
+{
+    "id": 10,
+    "name":"Химчистка салона"
+},
+{
+    "id": 11,
+    "name":"Уборка багажника"
+},
+{
+    "id": 12,
+    "name":"Чернение покрышек"  
+},
+{
+    "id": 13,
+    "name":"Чистка ковриков"
+}
+
+  ];
+  var objTo = document.getElementById('uslugi_content_cards');
+  uslugi.forEach(item => { 
+  let elem = document.createElement("div");
+  elem.className="uslugi_card";
+  elem.innerHTML = `<img src="images/cards/${item.id}.png"style="width:100%" >
+                    <div class="card_text">
+                        <a class="venus_rising" style="color:background: #2C2C2C; width:290px;">${item.name}</a>
+                        <a class="breadcrumb_text" style="color:#9D9D9D; display: flex;align-items: center; gap:5px;">Узнать подробнее <object type="image/svg+xml" class="arrow_card" width="10" height="14"></object></a>
+                    </div>`;
+  objTo.appendChild(elem);
+})
+const hed = document.getElementById("headdy");
+  const dropdown_hover = document.getElementById("dropdown");
+  dropdown_hover.addEventListener(
+  "mouseover",
+  (event) => {
+    hed.style.height= "264px";
+
+  },
+  false,
+);
+dropdown_hover.addEventListener(
+  "mouseout",
+  (event) => {
+    hed.style.height= "71px";
+
+  },
+  false,
+);
+const uslugi_click = document.getElementById("uslugi_click");
+const uslugi_click_footer = document.getElementById("uslugi_click_footer");
+const karta_content = document.getElementById("karta_content");
+const karta_content_footer = document.getElementById("karta_content_footer");
+const uslugi_content = document.getElementById("uslugi_content");
+const uslugi_content_footer = document.getElementById("uslugi_content_footer");
+const uslugi_textback = document.getElementById("uslugi_text_back");
+const uslugi_textback_footer = document.getElementById("uslugi_text_back_footer");
+uslugi_click.addEventListener("click", (event) => {
+    karta_content.style.display= "none";
+    uslugi_content.style.display= "flex";
+});
+uslugi_textback.addEventListener("click", (event) => {
+    uslugi_content.style.display= "none";
+    karta_content.style.display= "flex";
+    
+});
+
+uslugi_click_footer.addEventListener("click", (event) => {
+    karta_content_footer.style.display= "none";
+    uslugi_content_footer.style.display= "flex";
+});
+uslugi_textback_footer.addEventListener("click", (event) => {
+    uslugi_content_footer.style.display= "none";
+    karta_content_footer.style.display= "flex";
+    
+});
+document.querySelector('.burger').addEventListener('click',function(){
+    this.classList.toggle('active');
+    document.querySelector('.header_menu_360').classList.toggle('open');
+})
+</script>
+  </body>
+</html>
